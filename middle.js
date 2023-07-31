@@ -32,7 +32,7 @@
 //   return true;
 // };
 
-const middleArray = function (array) {
+const middle = function (array) {
   if (array.length <= 2) {
     console.log("This array is too small");
     return [];
